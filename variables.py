@@ -19,31 +19,31 @@ class Config(object):
 
     # <================================================ REQUIRED ======================================================>
     # Telegram API configuration
-    API_ID = 204 # Get this value from my.telegram.org/apps
-    API_HASH = ""
+    API_ID = 28196711 # Get this value from my.telegram.org/apps
+    API_HASH = "a8a23bffb12aae7a4c72fa2b4cd538a1"
 
     # Database configuration (PostgreSQL)
     DATABASE_URL = "postgres:"
 
     # Event logs chat ID and message dump chat ID
-    EVENT_LOGS = -100
-    MESSAGE_DUMP = -100
+    EVENT_LOGS = -1002162459411
+    MESSAGE_DUMP = -1002162459411
 
     # MongoDB configuration
-    MONGO_DB_URI = ""
+    MONGO_DB_URI = "mongodb+srv://PANDABABY:PANDABABY@pandababy.rft5a3z.mongodb.net/?retryWrites=true&w=majority&appName=Pandababy"
 
     # Support chat and support ID
-    SUPPORT_CHAT = ""
-    SUPPORT_ID = -100
+    SUPPORT_CHAT = "https://t.me/strangerchattingclub"
+    SUPPORT_ID = -1002049075858
 
     # Database name
-    DB_NAME = ""
+    DB_NAME = "king"
 
     # Bot token
-    TOKEN = ""  # Get bot token from @BotFather on Telegram
+    TOKEN = "7507225748:AAHP7uwptvg-uuczocE5n3rQVWlxpSoV814"  # Get bot token from @BotFather on Telegram
 
     # Owner's Telegram user ID (Must be an integer)
-    OWNER_ID = 5907205317
+    OWNER_ID = 6655939309
     # <=======================================================================================================>
 
     # <================================================ OPTIONAL ======================================================>
